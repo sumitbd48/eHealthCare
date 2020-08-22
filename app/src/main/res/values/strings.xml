@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">myHealthCare</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_webview">Tips</string>
+    <string name="nav_settings">Settings</string>
+
+    <string name="menu_prescription">Prescription</string>
+    <string name="menu_appointment">Appointment</string>
+    <string name="menu_report">Report</string>
+    <string name="menu_doctor">Doctor</string>
+
+    <string name="user_session">USER_SESSION</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
