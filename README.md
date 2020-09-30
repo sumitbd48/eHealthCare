@@ -1,6 +1,6 @@
-## myHealth Care
+## eHealth Care
 ### Introduction
-myHealth Care is an android application which signifies a patient management application that provides the patients all the facilities available in the hospital in their palm. This application enables patients to register or login to the system and view their reports and prescriptions that have been provided to them by the hospital. When a person visits a hospital, s/he is sure to receive some prescription or report. People are extremely busy these days and they are having hard time managing their schedule. So, this application helps patients to save their time as all of their reports and prescription will be stored in this application and can be viewed from wherever they like. They will not have to go to the hospital and wait in queue to receive their reports. Similarly, the patients can view the list of doctors that are working in the hospital along with their profile. Moreover, this application also enables patient to book an appointment by selecting the doctor according to their requirements and illness. This project will work as a result of time saving and management especially for those people who usually have a hectic schedule and also for those people who cannot manage time to visit the hospital.
+eHealth Care is an android application which signifies a patient management application that provides the patients all the facilities available in the hospital in their palm. This application enables patients to register or login to the system and view their reports and prescriptions that have been provided to them by the hospital. When a person visits a hospital, s/he is sure to receive some prescription or report. People are extremely busy these days and they are having hard time managing their schedule. So, this application helps patients to save their time as all of their reports and prescription will be stored in this application and can be viewed from wherever they like. They will not have to go to the hospital and wait in queue to receive their reports. Similarly, the patients can view the list of doctors that are working in the hospital along with their profile. Moreover, this application also enables patient to book an appointment by selecting the doctor according to their requirements and illness. This project will work as a result of time saving and management especially for those people who usually have a hectic schedule and also for those people who cannot manage time to visit the hospital.
 
 ### Features of the Project
 * Login and Registration System
@@ -17,12 +17,6 @@ myHealth Care is an android application which signifies a patient management app
 * View Doctors and their Profile
 * Implementation of WebView to load a website about Health Tips
 * Animations added
-
-### Youtube link of the Android Application
-https://youtu.be/HTDAaPYaZxA
-
-### Backend API Link
-https://github.com/softwarica-github/t2-backend-api-krranjik.git
 
 ### REST Client
 The term REST stands for REpresentational State Transfer. It is a method of communication between two systems i.e. REST Client and REST Server. Here, the Client makes the request whereas the Server responds to request.
