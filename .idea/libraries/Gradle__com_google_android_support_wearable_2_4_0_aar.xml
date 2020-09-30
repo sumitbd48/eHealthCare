@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.android.support:wearable:2.4.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/83daa8a975ac4cb5eeb200d9fdd8235a/jetified-wearable-2.4.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/83daa8a975ac4cb5eeb200d9fdd8235a/jetified-wearable-2.4.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/83daa8a975ac4cb5eeb200d9fdd8235a/jetified-wearable-2.4.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6c75128c45a70da272c751c4950957a4/jetified-wearable-2.4.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6c75128c45a70da272c751c4950957a4/jetified-wearable-2.4.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6c75128c45a70da272c751c4950957a4/jetified-wearable-2.4.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

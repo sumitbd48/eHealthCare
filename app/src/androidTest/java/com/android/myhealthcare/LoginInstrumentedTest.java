@@ -29,10 +29,10 @@ public class LoginInstrumentedTest {
     @Test
     public void testLogin() {
 
-        onView(withId(R.id.username)).perform(typeText("krranjik"));
+        onView(withId(R.id.username)).perform(typeText("sumitbd48"));
         // close the keyboard
         closeSoftKeyboard();
-        onView(withId(R.id.password)).perform(typeText("kritik"));
+        onView(withId(R.id.password)).perform(typeText("sumit1234"));
         // close the keyboard
         closeSoftKeyboard();
         // click the login button

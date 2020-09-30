@@ -32,6 +32,20 @@ public class UnitTest {
     }
 
     @Test
+    public void testRegister() {
+        User user = new User("", "test1", "test1", "test1", "test1", "", "", "Male", "", "", "", "", "");
+        boolean register = userAPI.register(user);
+        assertTrue(register);
+    }
+
+    @Test
+    public void testIncorrectLogin() {
+        User user = new User("", "sumit");
+        boolean login = userAPI.login(user);
+        assertFalse(login);
+    }
+
+    @Test
     public void testAppointment() {
         RequestAppointment requestAppoint = new RequestAppointment("1998/1/1", "10AM", "5e35c1f5073c7226ac54a545", "5e35c5bc2cb43a69acd27655");
         boolean appointment = appointmentAPI.addAppointments(requestAppoint);
@@ -40,23 +54,9 @@ public class UnitTest {
 
     @Test
     public void testCorrectLogin() {
-        User user = new User("krranjik", "kritik");
+        User user = new User("sumitbd", "sumitbd");
         boolean login = userAPI.login(user);
         assertTrue(login);
-    }
-
-    @Test
-    public void testIncorrectLogin() {
-        User user = new User("", "kritik");
-        boolean login = userAPI.login(user);
-        assertFalse(login);
-    }
-
-    @Test
-    public void testRegister() {
-        User user = new User("", "test1", "test1", "test1", "test1", "", "", "Male", "", "", "", "", "");
-        boolean register = userAPI.register(user);
-        assertTrue(register);
     }
 
     @Test
@@ -70,6 +70,5 @@ public class UnitTest {
         Doctor singledoctor = doctorAPI.getDoctorDetails("5e35c1f5073c7226ac54a545");
         assertNotNull(singledoctor);
     }
-
 
 }

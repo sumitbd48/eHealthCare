@@ -28,7 +28,6 @@ public class RegisterInstrumentedTest {
 
     @Test
     public void testRegister() {
-
         onView(withId(R.id.fullname)).perform(typeText("testing"));
         // close the keyboard
         closeSoftKeyboard();
@@ -45,7 +44,6 @@ public class RegisterInstrumentedTest {
         // close the keyboard
         closeSoftKeyboard();
         onView(withId(R.id.rbmale)).perform(click());
-////        // close the keyboard
 //        closeSoftKeyboard();
         // click the register button
         onView(withId(R.id.signup)).perform(scrollTo()).perform(click());

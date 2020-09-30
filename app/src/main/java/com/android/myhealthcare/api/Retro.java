@@ -9,9 +9,9 @@ public class Retro {
 
     //for testing
 //    private static final String BASE_URL
-//            = "http://192.168.100.76:4444/";
+//            = "http://192.168.1.87:4444/";
 //    public static final String IMG_URL
-//            = "http://192.168.100.76:4444/public/";
+//            = "http://192.168.1.87:4444/public/";
 
     private static final String BASE_URL
             = "http://10.0.2.2:4444/";
